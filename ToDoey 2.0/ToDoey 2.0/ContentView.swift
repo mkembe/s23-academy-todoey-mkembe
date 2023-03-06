@@ -130,7 +130,14 @@ struct ToDoItemView: View {
                         .foregroundColor(currentList.color)
                 }
             }
-            TextField("", text: $todo.name)
+            if(todo.isCompleted) {
+                TextField("", text: $todo.name)
+                    .foregroundColor(.gray)
+                    .strikethrough()
+            } else {
+                TextField("", text: $todo.name)
+            }
+
         }
         
     }
