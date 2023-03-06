@@ -17,3 +17,5 @@ Features:
 - Navigation Between To Do List View and Home View
 - Viewable Task Count for Each To Do List
 
+![picture](https://github.com/appteamcarolina/s23-academy-mp05-todoey-mkembe/blob/main/todoey.gif?raw=true)
+
